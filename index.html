@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="assets/lightbox2-master/src/css/lightbox.css" rel="stylesheet">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
@@ -73,7 +74,7 @@
 							<li><a href="https://www.linkedin.com/in/karingoh" class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
 							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
 							<!-- <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+							<!-- <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li> -->
 						</ul>
 
 				</div>
@@ -92,7 +93,7 @@
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+								<!-- <a href="#portfolio" class="button scrolly">Magna Aliquam</a> -->
 							</footer>
 
 						</div>
@@ -169,49 +170,50 @@
 
 							<p>While I mostly photography for the news, I also love capturing the candid moments with my friends and family.</p>
 
+						 
 							<div class="row">
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										 <a href="images/photography/martinomalley.jpg" data-lightbox="photography" data-title="Martin O'Malley"><img src="images/photography/martinomalley.jpg" class="image fit"></a>
 										<header>
 											<h3>Martin O'Malley</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<a href="images/photography/swimming-ryanmurphy.jpg" data-lightbox="photography" data-title="Ryan Murphy"><img src="images/photography/swimming-ryanmurphy.jpg" class="image fit"></a>
 										<header>
-											<h3>Swimming</h3>
+											<h3>Ryan Murphy</h3>
 										</header>
 									</article>
 								</div>
 								<div class="4u 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<a href="images/photography/lavernecox.jpg" data-lightbox="photography" data-title="Laverne Cox"><img src="images/photography/lavernecox.jpg" class="image fit"></a>
 										<header>
 											<h3>Laverne Cox</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+										<a href="images/pic05.jpg" data-lightbox="photography" data-title="Pretty Landscape"><img src="images/pic05.jpg" class="image fit"></a>
 										<header>
 											<h3>Pretty Landscape</h3>
 										</header>
 									</article>
 								</div>
-								<div class="4u$ 12u$(mobile)">
+								<!-- <div class="4u$ 12u$(mobile)">
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="images/photography/.jpg" data-lightbox="photography" data-title=""><img src="images/photography/.jpg" class="image fit"></a>
 										<header>
 											<h3>Dolor Penatibus</h3>
 										</header>
 									</article>
 									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+										<a href="images/photography/.jpg" data-lightbox="photography" data-title=""><img src="images/photography/.jpg" class="image fit"></a>
 										<header>
 											<h3>Orci Convallis</h3>
 										</header>
 									</article>
-								</div>
+								</div> -->
 							</div>
 
 						</div>
@@ -252,6 +254,7 @@
 									<div class="12u$">
 										<input type="submit" value="Send Message" />
 									</div>
+									<!-- <input type="hidden" name="_next" value="//site.io/thanks.html" /> -->
 								</div>
 							</form>
 
@@ -276,6 +279,13 @@
 			<script src="assets/js/jquery.scrollzer.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
+			<script src="assets/lightbox2-master/dist/js/lightbox.js"></script>
+			<script>
+			    lightbox.option({
+			      'showImageNumberLabel': false,
+			      'wrapAround': true
+			    })
+			</script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 
